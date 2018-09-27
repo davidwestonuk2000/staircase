@@ -1,4 +1,4 @@
-public class Stairs {
+class Stairs {
 
     // A simple recursive program number
     static int fib(int n)
@@ -20,9 +20,10 @@ public class Stairs {
 
 
     /* Driver program to test above function */
-    public static void main (String args[])
+    public static int main (String args[])
     {
         System.out.println("Number of ways = "+ countWays(Integer.parseInt(args[0])));
+        return countWays(Integer.parseInt(args[0]));
     }
 }
 
